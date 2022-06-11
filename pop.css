@@ -1,0 +1,32 @@
+body{margin:0;}
+.pop{
+	width:200px; height:400px;
+	background:url(pic/p5.png) no-repeat center;
+	float:right;
+}
+#talk{
+	margin:20px 200px 20px 20px;
+	border:double silver 3px;
+	min-height:400px;
+	font-size:120%;
+	font-family:Arial;
+	//overflow:auto;
+}
+#userText{
+	padding:10px;
+	font-size:120%;
+	border:double silver 3px;
+	margin:20px 200px 20px 20px;
+	width:calc(100% - 246px);
+}
+.popText{
+	color:green;
+	text-align:left;
+	margin:5px;
+}
+.userText{
+	color:blue;
+	text-align:right;
+	margin:5px;
+}
+
